@@ -1,0 +1,183 @@
+
+* {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.container {
+  max-width: none;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+#resume-title {
+  text-align: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.sidenav {
+  background-color: black;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: none;
+}
+.upper-logo {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sidenav a{
+  float: left;
+  text-decoration: none;
+  width: 20%;
+  color: red;
+  font-size: 3vh;
+  text-align: center;
+  box-shadow: inset 0 0 0 0 white;
+  border-radius: 2%;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.sidenav a:hover {
+  box-shadow: inset 1300px 0 0 0 red;
+  color: white;
+}
+
+.parallax-1 {
+  background-image: url("Media/NOAH\ REDFORD\ \(5\).png");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+  .sidenav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center; 
+  }
+}
+
+.avatar {
+  margin: none;
+  padding: none;
+  width: 100%;
+}
+
+.avatar-1 {
+  margin: none;
+  padding: none;
+  width: 100%;
+  
+}
+
+.card {
+  border: black solid 0.5vh;
+}
+
+.card-img-top {
+  max-height: 28vh;
+}
+
+
+.btn {
+  background-color: red;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn a:hover {
+  color: white;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+footer {
+  background-color: BLACK;
+}
+
+h2 {
+  padding: 2vh;
+}
+
+h5 {
+  padding: 1vh;
+}
+
+.skills .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.skills h2 {
+  font-weight: 400;
+}
+.skills .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
